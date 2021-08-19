@@ -63,9 +63,3 @@
   height: 100%;
   color: rgb(17, 17, 17) !important;
 }
-
-@media (max-width: 1199px) {
-  .u-section-2 .u-social-icons-1 {
-    margin-left: 501px;
-  }
-}
