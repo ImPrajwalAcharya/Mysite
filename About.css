@@ -47,7 +47,17 @@
 }
 
 @media (max-width: 1199px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 198px;
+  }
+
   .u-section-2 .u-social-icons-1 {
-    margin-left: 501px;
+    margin-top: 88px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2 .u-social-icons-1 {
+    margin-top: 60px;
   }
 }
