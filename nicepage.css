@@ -36683,18 +36683,20 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 575px) {
   .u-header .u-sheet-1 {
-    min-height: 160px;
+    min-height: 130px;
   }
 
   .u-header .u-image-1 {
     width: 57px;
-    margin-top: 20px;
+    margin-top: 36px;
+    margin-left: 13px;
   }
 
   .u-header .u-menu-1 {
-    margin-top: -14px;
+    margin-top: -45px;
     margin-right: auto;
-    margin-bottom: 60px;
+    margin-bottom: 49px;
+    width: auto;
   }
 }
 .u-footer {
