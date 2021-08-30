@@ -36624,7 +36624,7 @@ a.u-link.u-text-hover-grey-90:hover {
   width: 59px;
   height: 59px;
   animation-duration: 1500ms;
-  margin: 17px auto 0 -59px;
+  margin: 17px auto 0 17px;
 }
 
 .u-header .u-logo-image-1 {
@@ -36649,7 +36649,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-image-1 {
-    margin-left: -59px;
+    margin-left: 17px;
     width: 59px;
     height: 59px;
   }
