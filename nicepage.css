@@ -36617,57 +36617,82 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 75px;
+  min-height: 74px;
+}
+
+.u-header .u-image-1 {
+  width: 59px;
+  height: 59px;
+  animation-duration: 1500ms;
+  margin: 13px auto 0 0;
+}
+
+.u-header .u-logo-image-1 {
+  width: 100%;
+  height: 100%;
 }
 
 .u-header .u-menu-1 {
-  margin: 18px auto;
+  margin: -36px auto 17px;
 }
 
 .u-header .u-nav-1 {
   font-size: 1rem;
-  letter-spacing: 0px;
-  font-weight: 700;
-  text-transform: uppercase;
-  background-image: none;
-}
-
-.u-header .u-sidenav-1 {
-  padding: 0;
-}
-
-.u-header .u-menu-close-1 {
-  width: 22px;
-  height: 28px;
-  margin: 21px 23px 0 auto;
 }
 
 .u-header .u-nav-2 {
   font-size: 1rem;
-  letter-spacing: 1px;
-  margin-top: 21px;
-  margin-bottom: 0;
-  font-weight: normal;
 }
+@media (max-width: 1199px) {
+  .u-header .u-sheet-1 {
+    min-height: 92px;
+  }
 
+  .u-header .u-image-1 {
+    width: 59px;
+    height: 59px;
+  }
 
-
-@media (max-width: 575px) {
   .u-header .u-menu-1 {
-    margin-top: 24px;
-    margin-bottom: 23px;
+    margin-top: -45px;
+    margin-bottom: 26px;
+  }
+}
+@media (max-width: 991px) {
+  .u-header .u-sheet-1 {
+    min-height: 84px;
   }
 
-  .u-header .u-menu-close-1 {
-    margin-top: 65px;
+  .u-header .u-menu-1 {
+    width: auto;
+    margin-right: 336px;
+  }
+}
+@media (max-width: 767px) {
+  .u-header .u-image-1 {
+    width: 58px;
+    height: 58px;
+    margin-left: 20px;
+  }
+
+  .u-header .u-menu-1 {
+    margin-right: 246px;
+  }
+}
+@media (max-width: 575px) {
+  .u-header .u-sheet-1 {
+    min-height: 160px;
+  }
+
+  .u-header .u-image-1 {
+    width: 57px;
+    margin-top: 20px;
+  }
+
+  .u-header .u-menu-1 {
+    margin-top: -14px;
     margin-right: auto;
-  }
-
-  .u-header .u-nav-2 {
-    font-size: 2.25rem;
-    margin-top: 56px;
-    font-weight: 700;
-    height: 500px;
+    margin-bottom: 60px;
   }
 }
 .u-footer {
@@ -36675,19 +36700,19 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-sheet-1 {
-  min-height: 230px;
+  min-height: 172px;
 }
 
 .u-footer .u-btn-1 {
   background-image: none;
   border-style: none none solid;
-  margin: 117px auto 0;
+  margin: 73px auto 0;
   padding: 0;
 }
 
 .u-footer .u-text-1 {
   width: 417px;
-  margin: 30px auto;
+  margin: 47px auto 0;
 }
 @media (max-width: 1199px) {
   .u-footer .u-btn-1 {
