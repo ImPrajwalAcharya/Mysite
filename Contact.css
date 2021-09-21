@@ -54,7 +54,6 @@
 }
 
 .u-section-2 .u-social-icons-1 {
-  height: 44px;
   min-height: 16px;
   width: 105px;
   min-width: 49px;
@@ -70,6 +69,14 @@
 .u-section-2 .u-icon-2 {
   height: 100%;
   color: rgb(17, 17, 17) !important;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-social-icons-1 {
+    height: 44px;
+    width: 102px;
+    min-width: 46px;
+  }
 }
 
 @media (max-width: 575px) {

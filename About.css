@@ -59,8 +59,8 @@
 .u-section-2 .u-social-icons-1 {
   height: 44px;
   min-height: 16px;
-  width: 105px;
-  min-width: 49px;
+  width: 102px;
+  min-width: 46px;
   animation-duration: 1750ms;
   margin: 77px auto 60px;
 }
@@ -77,15 +77,9 @@
 
 @media (max-width: 1199px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 198px;
+    min-height: 175px;
   }
 
-  .u-section-2 .u-social-icons-1 {
-    margin-top: 88px;
-  }
-}
-
-@media (max-width: 991px) {
   .u-section-2 .u-social-icons-1 {
     margin-top: 60px;
   }
