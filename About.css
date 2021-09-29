@@ -62,7 +62,7 @@
   width: 102px;
   min-width: 46px;
   animation-duration: 1750ms;
-  margin: 77px auto 60px;
+  margin: 60px auto;
 }
 
 .u-section-2 .u-icon-1 {
@@ -73,14 +73,4 @@
 .u-section-2 .u-icon-2 {
   height: 100%;
   color: rgb(17, 17, 17) !important;
-}
-
-@media (max-width: 1199px) {
-  .u-section-2 .u-sheet-1 {
-    min-height: 175px;
-  }
-
-  .u-section-2 .u-social-icons-1 {
-    margin-top: 60px;
-  }
 }
