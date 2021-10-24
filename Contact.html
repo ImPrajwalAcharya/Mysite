@@ -62,7 +62,7 @@
     <section class="u-clearfix u-grey-10 u-section-1" id="sec-f3f3">
       <div class="u-clearfix u-sheet u-sheet-1">
         <div class="u-expanded-width-xs u-form u-form-1">
-          <form action="scripts/form-f3f3.php" method="POST" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="customphp" name="form" style="padding: 10px;">
+          <form action="send" enctype="multipart/form-data" method="Post" id="contact-form" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="customphp" name="contact" style="padding: 10px;">
             <div class="u-form-group u-form-name">
               <label for="name-532f" class="u-form-control-hidden u-label"></label>
               <input type="text" placeholder="Enter your Name" id="name-532f" name="name" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required="">
@@ -73,15 +73,17 @@
             </div>
             <div class="u-form-group u-form-message">
               <label for="message-532f" class="u-form-control-hidden u-label"></label>
+              <textarea placeholder="Enter your subject" rows="4" cols="50" id="message-532f" name="message" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required=""></textarea>
+            </div>
+            <div class="u-form-group u-form-message">
+              <label for="message-532f" class="u-form-control-hidden u-label"></label>
               <textarea placeholder="Enter your message" rows="4" cols="50" id="message-532f" name="message" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required=""></textarea>
             </div>
             <div class="u-align-center u-form-group u-form-submit">
-              <a href="#" class="u-border-2 u-border-black u-border-hover-custom-color-12 u-btn u-btn-submit u-button-style u-none u-text-black u-text-hover-black u-btn-1"> &nbsp;Submit</a>
-              <input type="submit" value="submit" class="u-form-control-hidden">
+              <button type="submit" value="submit" class="u-border-2 u-border-black u-border-hover-custom-color-12 u-btn u-btn-submit u-button-style u-none u-text-black u-text-hover-black u-btn-1"> &nbsp;Submit</button>
+             
             </div>
-            <div class="u-form-send-message u-form-send-success">Thank you! Your message has been sent.</div>
-            <div class="u-form-send-error u-form-send-message"> Unable to send your message. Please fix errors then try again. </div>
-            <input type="hidden" value="" name="recaptchaResponse">
+          
           </form>
         </div>
         <a href="mailto:Prajwalsmart888@gmail.com" class="u-align-center u-black u-border-none u-btn u-button-style u-hover-custom-color-12 u-text-white u-btn-2">Email Directly</a>
@@ -109,5 +111,6 @@ c0-6.7,3.1-17,17-17h12.5v13.9H73.5z"></path></svg></span>
         <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 551.13 551.13"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-1d98"></use></svg>
         <svg class="u-svg-content" enable-background="new 0 0 551.13 551.13" viewBox="0 0 551.13 551.13" xmlns="http://www.w3.org/2000/svg" id="svg-1d98" data-color="rgb(71, 138, 201)"><path d="m275.565 189.451 223.897 223.897h51.668l-275.565-275.565-275.565 275.565h51.668z"></path></svg>
     </span>
+    <script src="contact.js"></script>
   </body>
 </html>
